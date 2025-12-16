@@ -112,7 +112,7 @@ venv\\Scripts\\Activate
 
 
 
-\###2. Install Dependencies
+2. Install Dependencies
 
 powershell
 
@@ -120,13 +120,13 @@ Copy code
 
 pip install -r requirements.txt
 
-\##CLI Usage
+CLI Usage
 
 All commands must be executed from the project root directory.
 
 
 
-\###Generate Raw Data
+Generate Raw Data
 
 powershell
 
@@ -134,7 +134,7 @@ Copy code
 
 python -m etl\_pipeline.cli generate
 
-\###Extract Data
+Extract Data
 
 powershell
 
@@ -142,7 +142,7 @@ Copy code
 
 python -m etl\_pipeline.cli extract
 
-\###Transform Data
+Transform Data
 
 powershell
 
@@ -150,7 +150,7 @@ Copy code
 
 python -m etl\_pipeline.cli transform
 
-\###Load Data into Database
+Load Data into Database
 
 powershell
 
@@ -158,7 +158,7 @@ Copy code
 
 python -m etl\_pipeline.cli load
 
-\###Run Full ETL Pipeline
+Run Full ETL Pipeline
 
 powershell
 
