@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pure-python-etl"
+version = "0.1.0"
+description = "Pure Python ETL Pipeline for Synthetic User Data"
+authors = [{ name = "Durga Lalitha Sri Varshitha" }]
+dependencies = ["faker"]
+
+[project.scripts]
+etl-cli = "etl_pipeline.cli:main"
